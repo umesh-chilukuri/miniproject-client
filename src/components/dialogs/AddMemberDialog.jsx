@@ -15,7 +15,7 @@ import {
 } from "../../redux/api/api";
 import { useAsyncMutation, useErrors } from "../../hooks/hook";
 import { useDispatch, useSelector } from "react-redux";
-import { setIsAddMember } from "../../redux/reducers/reducers/misc";
+import { setIsAddMember } from "../../redux/reducers/misc";
 const AddMemberDialog = ({ chatId }) => {
   const dispatch = useDispatch();
 
