@@ -61,7 +61,7 @@ const Header = () => {
 
   const navigateToGroup = () => navigate("/groups");
 
-  const navigateToAdmin = () => window.location.href = "http://localhost:5173/admin";
+  const navigateToAdmin = () => window.location.href = `${server}/admin`;
 
   const logoutHandler = async () => {
     try {
