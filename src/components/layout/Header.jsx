@@ -61,7 +61,7 @@ const Header = () => {
 
   const navigateToGroup = () => navigate("/groups");
 
-  const navigateToAdmin = () => window.location.href = `${server}/admin`;
+  const navigateToAdmin = () => window.location.href = "https://miniproject-client-czfj.vercel.app/admin";
 
   const logoutHandler = async () => {
     try {
